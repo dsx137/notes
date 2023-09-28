@@ -57,7 +57,7 @@
 
 ### 实体
 
->Entity\
+>Entity  
 >模块的声明
 
 ```vhdl
@@ -79,8 +79,6 @@
   + `驱动器（Driver）`：是一个为信号提供值的过程或端口。一个信号只能有一个驱动器，否则会出现错误。
   + `解析函数（Resolution Function）`：是一个用于确定多个驱动情况下信号值的函数。只有可解析的类型，如std_logic或std_logic_vector，才能使用解析函数。
 
-<br>
-
 + PORT MODE的属性
   + `IN`: 输入，只读
   + `OUT`: 输出，只写
@@ -96,7 +94,7 @@
 
 ### 结构体
 
->Architecture\
+>Architecture  
 >模块的定义
 
 ### 配置
@@ -105,10 +103,10 @@
 
 ### 程序包和程序包体
 
->Package\
+>Package  
 >头文件
 
 ### 库
 
->Library\
+>Library  
 >命名空间
