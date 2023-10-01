@@ -9,7 +9,7 @@
 
 ## 基础流程
 
-![git流程](https://s2.loli.net/2022/11/25/nRQtrckGNyavA7x.jpg)
+![git流程](./.src/git流程.jpg)
 
 ---
 
