@@ -9,7 +9,7 @@
 
 ## 基础流程
 
-![git流程](./.src/git流程.jpg)
+![git流程](.src/git流程.jpg)
 
 ---
 
