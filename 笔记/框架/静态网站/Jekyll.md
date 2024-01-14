@@ -9,7 +9,7 @@
 1. 安装[Ruby](http://www.ruby-lang.org/zh_cn/)
 2. 在CMD中输入`gem install jekyll`
 3. cd到工程所在目录，输入`jekyll s`
-4. 访问<http://localhost:4000>
+4. 访问[http://localhost:4000](http://localhost:4000)
 
 就是一拖四  
 要先安装gem,ruby，然后cd到文件夹，bundle install安装前置  

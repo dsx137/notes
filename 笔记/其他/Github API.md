@@ -6,7 +6,9 @@
 
 ## 一些格式
 
-<https://api.github.com/repos/这里填用户/这里填仓库/>
+```txt
+https://api.github.com/repos/这里填用户/这里填仓库/
+```
 
 查看文件在后添加contents/path
 
