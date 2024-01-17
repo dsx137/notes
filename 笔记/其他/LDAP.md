@@ -75,8 +75,32 @@
 
 + 客户端
   + `openldap-clients`，`OpenLDAP`的命令行工具
-  + `LDAP Account Manager（LAM）`：功能完善，中文友好，依赖php的web管理界面，[官网](https://www.ldap-account-manager.org/lamcms/)
+  + [`LDAP Account Manager（LAM）`](https://www.ldap-account-manager.org/lamcms/)：功能完善，中文友好，依赖php的web管理界面
+
+[我花了一个五一终于搞懂了OpenLDAP](https://segmentfault.com/a/1190000014683418)
 
 ## 使用
+
+### openldap-clients
+
+|Option|说明|
+|-|-|
+|-H|ldapuri，格式为ldap://机器名或者IP:端口号，不能与-h和-p同时使用|
+|-h|LDAP服务器IP或者可解析的hostname，与-p可结合使用，不能与-H同时使用|
+|-p|LDAP服务器端口号，与-h可结合使用，不能与-H同时使用|
+|-x|使用简单认证方式|
+|-D|所绑定的服务器的DN|
+|-w|绑定DN的密码，与-W二者选一|
+|-W|不输入密码，会交互式的提示用户输入密码，与-w二者选一|
+|-c|出错后忽略当前错误继续执行，缺省情况下遇到错误即终止|
+|-n|模拟操作但并不实际执行，用于验证，常与-v一同使用进行问题定位|
+|-v|显示详细信息|
+|-d|显示debug信息，可设定级别|
+|-e|设置客户端证书|
+|-E|设置客户端私钥|
+
+### 权限控制
+
+[Linux 安装并配置 OpenLDAP 新编（5）访问控制](https://blog.csdn.net/bashenandi/article/details/124602455)
 
 WIP...
