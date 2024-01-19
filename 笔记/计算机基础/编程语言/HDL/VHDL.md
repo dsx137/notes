@@ -49,7 +49,7 @@
   + `非限制性数组`：当声明数据时再定义范围
     + `TYPE name IS array(TYPE range<>) of TYPE`
   + `限制性数组`：范围在类型声明时就已经定义
-    + `TYPE name IS array(value to value) of TYPE` 
+    + `TYPE name IS array(value to value) of TYPE`
 
 ---
 
