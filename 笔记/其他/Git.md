@@ -11,6 +11,10 @@
 
 ![git流程](.src/git流程.jpg)
 
+### Commit
+
+[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
+
 ---
 
 ## 这个是测试内容
