@@ -48,9 +48,9 @@
 
 例如：
 
-| 字符串    | 值                   |
-| --------- | -------------------- |
-| `pattern` | `abaababc`             |
+| 字符串    | 值                         |
+| --------- | -------------------------- |
+| `pattern` | `abaababc`                 |
 | `text`    | `abaababaababcxxxxxxxxxxx` |
 
 此时`abaababc`的第三个`b`的`next`值应为`2`
